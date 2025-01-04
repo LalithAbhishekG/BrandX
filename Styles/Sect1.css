@@ -68,3 +68,40 @@
     transform: scale(1.2); /* Slight zoom effect */
   }
   
+#BX-Bookacall{
+    color: #2F3061;
+    background-color: #bcb5e0;
+    transform: scale(1.2);
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p{
+      margin-bottom: 0px;
+      padding-left:2px;
+    }
+
+  
+}
+
+@media (max-width: 424px) {
+
+  #BX-Bookacall{
+    color: #2F3061;
+    background-color: #bcb5e0;
+    transform: scale(1.2);
+    margin: 0px;
+
+     i{
+      padding: 0px;
+     }
+    p{
+      display: none;
+      padding: 0px;
+    }
+  
+}
+
+
+}
