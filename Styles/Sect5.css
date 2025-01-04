@@ -1,0 +1,37 @@
+/* Custom FAQ Styles */
+.BX-sect5 {
+    background-color: #DFDFDF; /* Light background */
+  }
+  
+  .accordion-item {
+    border: 1px solid #dee2e6; /* Custom border color */
+  }
+  
+  .accordion-header .accordion-button {
+    background-color: #2F3061; /* Primary color for button background */
+    font-size: 20px;
+    color: white; /* Text color */
+  }
+  
+  .accordion-header .accordion-button:not(.collapsed) {
+    background-color: #2F3061; /* Darker shade for active state */
+  }
+  
+  .accordion-header .accordion-button:focus {
+    box-shadow: none; /* Remove default focus shadow */
+  }
+  
+  .accordion-body {
+    background-color: #ffffff; /* Body background color */
+    color: #212529; /* Body text color */
+  }
+  
+  .accordion-button::after {
+    content: '\25BC'; /* Unicode for down arrow */
+    transform: rotate(0deg); /* Default state */
+    transition: transform 0.2s ease-in-out; /* Smooth animation */
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg); /* Rotate the arrow for expanded state */
+  }

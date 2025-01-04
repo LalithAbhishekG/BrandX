@@ -1,0 +1,58 @@
+.BX-sect3{
+    height: 40em;
+    background-color: #474571 ;
+}
+
+.BX-card{
+    background-color:#202020 ;
+    margin-top: 3em;
+    border: solid 1px black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    i{
+        transform: scale(7.0);
+        color: #fff;
+        margin: 6rem;
+    }
+
+    h1{
+        text-decoration: underline;   
+        color: #fff;
+    }
+    p{
+        padding-top: 10px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #fff;
+        font-size: 18px;
+    }
+}
+
+.BX-sect3-title{
+    padding-top: 5rem;
+    margin-bottom: -2rem;
+    h1{        
+        font-size: clamp(3rem,1vw + 1rem, 8rem);
+        color: #ffff;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+
+    .BX-sect3{
+        height: 1600px;
+    }
+
+    .BX-card{
+        transform: scale(0.85);
+    }
+
+    
+}

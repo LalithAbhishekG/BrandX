@@ -1,0 +1,27 @@
+.BX-sect4-iframe {
+    margin: 20px; /* This margin applies around each iframe container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .BX-sect4-iframe iframe {
+    height: 530px;
+    width: 298px; /* Adjusted iframe size */
+    border-radius: 13px;
+  }
+  
+  .BX-sect4{
+    background-color: #202020;
+    padding-bottom: 40px;
+    padding-top: 40px;
+   
+    h1{
+      text-align: center;
+      color: #ffffff;
+      text-decoration: underline;
+    }
+     
+  }
+

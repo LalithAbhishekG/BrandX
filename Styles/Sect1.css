@@ -1,0 +1,70 @@
+.body{
+  font-family: "Comfortaa";
+}
+
+/* Navbar styles */
+.BX-navbar {
+    background-color: #202020; /* Black background */
+    padding: 10px 20px;
+    z-index: 1;
+    position: sticky;
+    font-family: "Comfortaa";
+  }
+  
+  /* Brand logo */
+  .BX-brand {
+    padding-top: 1rem;
+    color: #ffffff; /* Blue text */
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    .BX-logo-span{
+        color: #9F9CB0;
+    }
+
+    
+
+  }
+  
+  .BX-brand:hover {
+    color: #ffffff; /* Lighter blue on hover */
+    text-decoration: none;
+  }
+  
+  /* Navbar links */
+  .BX-link {
+    color: #fff; /* White text */
+    font-size: 1rem;
+    margin-right: 15px;
+    padding: 10px;
+    transition: color 0.3s;
+    transition: ease-in 8.0ms;
+    border-radius: 12px;
+
+    i{
+        padding-right: 6px;
+        transform: scale(1.4);
+    }
+  }
+  
+  .BX-link:hover {
+    color: #2F3061; /* Blue text on hover */
+    text-decoration: none;
+    border: solid 2px #ffffff;
+    background-color: #ffffff;
+    transition: 0.4s;
+  }
+  
+  /* Font Awesome toggler icon */
+  .BX-toggler-icon {
+    color: #fff; /* White color for toggle icon */
+    font-size: 1.5rem; /* Adjust icon size */
+    transition: transform 0.3s ease; /* Smooth animation on click */
+  }
+  
+  .BX-toggler-icon:hover {
+    color: #ffffff; /* Blue on hover */
+    transform: scale(1.2); /* Slight zoom effect */
+  }
+  

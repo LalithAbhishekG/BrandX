@@ -1,0 +1,81 @@
+.BX-sect2 {
+    background-color: #2F3061;
+    height: 819px;
+    padding-top: 100px;
+    font-family: "Comfortaa";
+}
+
+.BX-sect2-flex {
+    gap: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.BX-sect2-img {
+    display: flex;
+    max-width: 500px;
+    align-items: center;
+    width: 100%;
+
+    img {
+        height: 600px;
+    }
+}
+
+.BX-sect2-content {
+    max-width: 500px;
+    color: #9F9CB0;
+
+}
+
+.BX-sect2-heading {
+    padding-bottom: 20px;
+    h1 {
+        color: #fff;
+        font-size: clamp(2rem, 5vw, 70px); /* Fluid font size */
+    }
+}
+
+.BX-sect2-subcontent {
+    padding-bottom: 20px;
+}
+
+.BX-sect-about {
+    padding-bottom: 20px;
+    color: #fff;
+    h2 {
+        font-size: clamp(1.5rem, 4vw, 40px); /* Fluid font size */
+        text-decoration: underline;
+    }
+}
+
+.BX-sect-details {}
+
+@media (max-width: 992px) {
+
+    .BX-sect2-img {
+        max-width: 300px;
+
+        img {
+            height: 400px;
+        }
+    }
+
+    .BX-sect2 {
+        height: 1200px;
+    }
+
+    .BX-sect2-flex {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    /* Update font sizes for smaller screens */
+    .BX-sect2-heading h1 {
+        font-size: clamp(2rem, 6vw, 60px); /* Adjusted font size */
+    }
+
+    .BX-sect-about h2 {
+        font-size: clamp(1.5rem, 5vw, 35px); /* Adjusted font size */
+    }
+}
